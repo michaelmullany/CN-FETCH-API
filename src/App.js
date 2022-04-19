@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const fetchCharacters = async () => {
       try {
-        const response = await fetch("https://zoo-animal-api.herokuapp.com/animals/rand/6")
+        const response = await fetch("https://zoo-animal-api.herokuapp.com/animals/rand/9")
         if (!response.ok) {
           throw new Error(response.statusText)
         }
